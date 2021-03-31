@@ -11,4 +11,4 @@ Bisogna quindi utilizzare una classe Data Object che contiene dei manipolatori p
 
 Creare un file chiamato: {Vendor/Name,App}/Data/Entity
 
-I Data Object devono far parte del service layer (in Api/Data) se possibile utilizzarli in altri moduli
+I Data Object devono far parte del service layer (in Api) se possibile utilizzarli in altri moduli
