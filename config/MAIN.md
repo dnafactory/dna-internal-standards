@@ -8,4 +8,4 @@ Questo per evitare di dover ricordare path di configurazioni a memoria e per sem
 
 Creare un file chiamato: {Vendor/Name,App}/Configuration/ConfigurationParentNameConfiguration
 
-le configuration devono far parte SEMPRE del service layer
+le configuration devono far parte SEMPRE del service layer (in Api)
