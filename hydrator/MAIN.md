@@ -9,3 +9,7 @@ Il responsabile della conversione array -> data object e data object -> array è
 Creare un file chiamato: {Vendor/Name,App}/Hydrator/EntityHydrator
 
 Gli Hydrator devono far parte del service layer (in Api) se devono essere utilizzati dall'esterno
+
+NB
+
+Gli Hydrator non utilizzano la suddivisione in cartelle

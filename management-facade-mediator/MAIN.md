@@ -31,3 +31,7 @@ Il CONTRO principale della soluzione uno è che al crescere delle funzionalità 
 Usate il dovuto buon senso
 
 L'ideale sarebbe di ragionare come keep simplicity in mind in caso di moduli o progetti piccoli e di dividere per domini in caso di moduli o progetti più grandi
+
+NB
+
+i Management non utilizzano la suddivisione in cartelle

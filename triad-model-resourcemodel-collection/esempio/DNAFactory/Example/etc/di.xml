@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="DNAFactory\Example\Api\Data\OrderInterface" type="DNAFactory\Example\Model\Order" />
+    <preference for="DNAFactory\Example\Api\Data\OrderItemInterface" type="DNAFactory\Example\Model\Order\Item" />
+</config>
