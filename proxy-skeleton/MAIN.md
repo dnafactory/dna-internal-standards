@@ -6,7 +6,7 @@ Quando bisogna implementare un servizio esterno, bisogna implementare il Proxy/S
 
 Creare un file chiamato: {Vendor/Name,App}/Proxy/Xxx/Yyy/ApiNameProxy
 
-I proxy devono SEMPRE far parte del service layer (in Api)
+I proxy se utilizzati all'esterno devono far parte del service layer (in Api)
 
 Prendiamo come esempio https://github.com/dnafactory/teamwork-api/tree/1.1.2/Projects (non è Magento, ma è un esempio pratico)
 
