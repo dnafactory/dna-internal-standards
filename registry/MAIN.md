@@ -19,4 +19,8 @@ Facendo riferimento al registry principale di Magento:
   
 Bisogna implementare una Service Class o un Data Provider adhoc per iniettare variabili
 
+Bisogna inserire la classe in {Vendor/Name}/Registry/FieldName
+
 Come esempio fare riferimento a: https://github.com/dnafactory/magento2-module-core/blob/master/Registry/CurrentProduct.php
+
+Un Data Provider se deve essere utilizzato all'esterno del modulo deve andare in Api

@@ -2,7 +2,7 @@
 
 namespace DNAFactory\Example\Job;
 
-class CalcNothinOnProductJobScheduler
+class CalcNothinOnProductJobPublisher
 {
     public function execute()
     {

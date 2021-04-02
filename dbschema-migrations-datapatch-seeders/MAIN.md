@@ -16,6 +16,9 @@ dnafactory_example_order per l'entità Order
 dnafactory_example_order_item per l'entità Order/Item
 
 NB
+ricordati della whitelist: https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/db-schema.html
+
+NB
 il database di Magento2 EE è splittato in 3 parti
 
 Il nome della patch dovrà essere:

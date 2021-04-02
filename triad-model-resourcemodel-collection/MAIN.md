@@ -38,3 +38,7 @@ NB
 internamente viene utilizzata la suddivisione in cartelle, cose che non deve mai accadere in Api o Api/Data
 
 {Vendor/Name}/Model/ResourceModel/Order/Item implementa {Vendor/Name}\Api\Data\OrderItemInterface
+
+NB
+
+le costanti bisogna metterle nelle concrete e non nelle interfacce

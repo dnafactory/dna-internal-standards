@@ -12,6 +12,7 @@
         <arguments>
             <argument name="handlers" xsi:type="array">
                 <item name="debug" xsi:type="object">Magento\Payment\Model\Method\MyCustomDebug</item>
+                <item name="warning" xsi:type="object">Magento\Payment\Model\Method\MyCustomDebug</item>
             </argument>
         </arguments>
     </virtualType>

@@ -2,9 +2,9 @@
 
 namespace DNAFactory\Example\Job;
 
-class CalcNothinOnProductJobWorker
+class CalcNothinOnProductJobConsumer
 {
-    public function execute()
+    public function process()
     {
         // execute del $product singolo
     }
