@@ -6,3 +6,5 @@ Nella totalità dei casi in cui una eccezione ha criticità maggiore di un warni
 # Come usarlo
 
 Bisogna imparare come la bibbia il PSR-3: https://www.php-fig.org/psr/psr-3/ - https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md
+
+https://devdocs.magento.com/guides/v2.4/config-guide/log/custom-logger-handler.html

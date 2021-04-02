@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Vendor\Module\Api\Data\ModelInterface" type="Vendor\Module\Model\Model" />
+
+    <type name="Vendor\Module\Something\ClassName">
+        <arguments>
+            <argument name="parameter1" xsi:type="string">string</argument>
+            <argument name="parameter2" xsi:type="object">Vendor\Module\Something\ElseClassName</argument>
+        </arguments>
+    </type>
+
+    <virtualType name="Vendor\Module\Something\FooClassName" type="Vendor\Module\Something\ClassName">
+        <arguments>
+            <argument name="parameter1" xsi:type="string">string1</argument>
+            <argument name="parameter2" xsi:type="object">Vendor\Module\Something\ElseClassName2</argument>
+        </arguments>
+    </virtualType>
+
+    <virtualType name="simpleName" type="Vendor\Module\Something\ClassName">
+        <arguments>
+            <argument name="parameter1" xsi:type="string">string1</argument>
+            <argument name="parameter2" xsi:type="object">Vendor\Module\Something\ElseClassName2</argument>
+        </arguments>
+    </virtualType>
+</config>
